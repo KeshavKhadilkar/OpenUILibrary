@@ -12,14 +12,12 @@
   min-width: 0px;
   text-overflow: ellipsis;
   outline: 0px;
- 
 }
 
 .text-field-grid {
-    display: grid;
-    grid-template-rows: 0.5fr 1fr;
-    justify-content: start;
-    gap: 0.2rem;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  gap: 0.3rem;
 }
 .input-field-wrapper {
   box-shadow: none;
@@ -36,8 +34,22 @@
   position: relative;
 }
 
-.input-field-error{
-    color: red;
-    font-weight: 400;
-    font-size: small;
+.input-field-error {
+  color: red;
+  font-weight: 400;
+  font-size: small;
+}
+
+.input-field-required {
+  color: red;
+  font-weight: 400;
+  font-size: small;
+}
+
+.text-field-label{
+    display: flex;
+    gap: 0.2rem;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
 }

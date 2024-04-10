@@ -1,12 +1,13 @@
 export interface ITextFieldProps{
     type: TextFieldTypes;
     //replace e type with actual type retured by input field
-    onChange: (e: any)=> void;
+    onChange?: (e: any)=> void;
     id: string;
     name: string;
     style?: string;
     placeholder?: string;
     disabled?: boolean;
+    required?: boolean;
     error?: string;
 }
 

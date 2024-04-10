@@ -5,7 +5,10 @@ import "./index.css";
 const TextField: React.FC<ITextFieldProps> = (props) => {
   return (
     <div className="text-field-grid">
-      <label>{props.name}</label>
+      <label className="text-field-label">
+        {props.name}
+        {props.required && <div className="input-field-required">*</div>}
+      </label>
       <div className="input-field-wrapper">
         <input
           type={props.type as unknown as HTMLInputTypeAttribute}
