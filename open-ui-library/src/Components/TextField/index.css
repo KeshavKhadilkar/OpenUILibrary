@@ -1,0 +1,43 @@
+.text-field-class {
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: none;
+  margin: 0px;
+  padding: 0px 8px;
+  box-sizing: border-box;
+  border-radius: 0px;
+  background: none transparent;
+  color: rgb(50, 49, 48);
+  width: 100%;
+  min-width: 0px;
+  text-overflow: ellipsis;
+  outline: 0px;
+ 
+}
+
+.text-field-grid {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    justify-content: start;
+    gap: 0.2rem;
+}
+.input-field-wrapper {
+  box-shadow: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: rgb(255, 255, 255);
+  cursor: text;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  position: relative;
+}
+
+.input-field-error{
+    color: red;
+    font-weight: 400;
+    font-size: small;
+}
