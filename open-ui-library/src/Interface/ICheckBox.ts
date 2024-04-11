@@ -3,4 +3,5 @@ export interface ICheckBoxProps{
     disabled?: boolean;
     checked?: boolean;
     renderpositionend?:boolean;
+    onChange?:(e:any)=>void;
 }
