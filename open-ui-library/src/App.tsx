@@ -2,14 +2,13 @@ import React from "react";
 import "./App.css";
 import TextField from "./Components/TextField";
 import { TextFieldTypes } from "./Interface";
+import { TextFieldUsage } from "./Pages/TextBox";
+import { CheckBoxUsage } from "./Pages/Checkbox";
 /*
 Test your components in this place
 describing the usage of the created common component
 */
 const App: React.FC = () => {
-  const onTestingChange = (e: any) => {
-    console.log(e);
-  };
   return (
     <>
       <div className="app-main">
@@ -21,41 +20,8 @@ const App: React.FC = () => {
           <br></br>
           <hr></hr>
           <div className="app-body">
-            <TextField
-              type={TextFieldTypes.text}
-              name="Standard"
-              id="standard"
-            />
-            <TextField
-              type={TextFieldTypes.text}
-              name="Disabled"
-              id="disabled"
-              disabled={true}
-            />
-            <TextField
-              type={TextFieldTypes.text}
-              name="Place Holder"
-              id="placeholder"
-              placeholder="Sample Place Holder"
-            />
-            <TextField
-              type={TextFieldTypes.text}
-              name="Error Message"
-              id="placeholder"
-              placeholder="Sample Place Holder"
-              error="Field cannot be left blank"
-            />
-            <TextField
-              type={TextFieldTypes.text}
-              name="Required"
-              id="required"
-              required={true}
-            />
-            <TextField
-              type={TextFieldTypes.password}
-              name="Password"
-              id="required"
-            />
+            {/* <TextFieldUsage /> */}
+            <CheckBoxUsage/>
           </div>
         </div>
       </div>
