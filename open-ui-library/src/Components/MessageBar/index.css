@@ -1,0 +1,64 @@
+.error {
+  font-style: normal;
+  font-weight: normal;
+  background-color: rgb(255, 231, 239);
+  color: white;
+}
+
+.info {
+  font-style: normal;
+  font-weight: normal;
+  background-color: rgb(243, 242, 241);
+}
+
+.success {
+  font-style: normal;
+  font-weight: normal;
+  background-color: rgb(223, 246, 221);
+}
+.warning {
+  font-style: normal;
+  font-weight: normal;
+  background-color: rgb(255, 244, 206);
+}
+.blocked {
+  font-style: normal;
+  font-weight: normal;
+  background-color: rgb(253, 231, 233);
+}
+
+.severewarning {
+  font-style: normal;
+  font-weight: normal;
+  background-color: rgb(254, 217, 204);
+}
+
+.icon {
+  margin-right: 0.3rem;
+}
+
+.message-bar-main {
+  position: relative;
+  color: rgb(50, 49, 48);
+  padding: 0.4rem;
+}
+
+.message-bar-body {
+  display: flex;
+}
+
+.message-bar-close {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+.message-bar-action {
+  display: grid;
+  grid-template-rows: 1fr 1.2fr;
+}
+.message-action-body {
+  position: absolute;
+  right: 0;
+  margin-right: 1.5rem;
+}

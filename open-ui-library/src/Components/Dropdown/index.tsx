@@ -54,7 +54,7 @@ const DropDown: React.FC<IDropDownProps> = (props) => {
               readOnly
               value={selectedOptions.join(";")}
               onClick={() => setdisplayOptions(!displayOptions)}
-              disabled={props.disabled}
+              disabled={true}
             />
             <button
               ref={buttonRef}

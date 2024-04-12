@@ -1,4 +1,5 @@
 export * from './ITextField'
 export * from './ICheckBox'
 export * from './IRadioGroup'
-export * from './IDropDownProps'
+export * from './IDropDown'
+export * from './IMessageBar'

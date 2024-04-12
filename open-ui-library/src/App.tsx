@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
+import { MessageBarUsage } from "./Pages/MessageBar";
 // import { TextFieldUsage } from "./Pages/TextBox";
 // import { CheckBoxUsage } from "./Pages/Checkbox";
 // import { RadioGroupUsage } from "./Pages/RadioGroup";
-import { DropDownUsage } from "./Pages/DropDown";
+// import { DropDownUsage } from "./Pages/DropDown";
 /*
 Test your components in this place
 describing the usage of the created common component
@@ -14,7 +15,7 @@ const App: React.FC = () => {
       <div className="app-main">
         <div style={{ width: "50%" }}>
           <label>
-            <strong>Usage of the Check Box Component</strong>
+            <strong>Usage of the MessgeBar Component</strong>
           </label>
           <br></br>
           <br></br>
@@ -23,7 +24,8 @@ const App: React.FC = () => {
             {/* <TextFieldUsage /> */}
             {/* <CheckBoxUsage/> */}
             {/* <RadioGroupUsage /> */}
-            <DropDownUsage />
+            {/* <DropDownUsage /> */}
+            <MessageBarUsage />
           </div>
         </div>
       </div>
