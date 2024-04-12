@@ -1,7 +1,9 @@
 import React from "react";
 import "./App.css";
 // import { TextFieldUsage } from "./Pages/TextBox";
-import { CheckBoxUsage } from "./Pages/Checkbox";
+// import { CheckBoxUsage } from "./Pages/Checkbox";
+// import { RadioGroupUsage } from "./Pages/RadioGroup";
+import { DropDownUsage } from "./Pages/DropDown";
 /*
 Test your components in this place
 describing the usage of the created common component
@@ -19,7 +21,9 @@ const App: React.FC = () => {
           <hr></hr>
           <div className="app-body">
             {/* <TextFieldUsage /> */}
-            <CheckBoxUsage/>
+            {/* <CheckBoxUsage/> */}
+            {/* <RadioGroupUsage /> */}
+            <DropDownUsage />
           </div>
         </div>
       </div>
