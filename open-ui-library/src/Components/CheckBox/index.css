@@ -1,0 +1,35 @@
+.checkbox-main{
+    display: flex;
+    align-items: center;
+}
+.checkbox-input{
+    width: 2rem;
+    height: 2rem;
+}
+
+input[type="checkbox"]{
+    appearance: unset;
+    border: 2px solid gray;
+    background: #eef2f3;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="checkbox"]:checked {
+    background: rgb(47, 70, 99);
+}
+
+input[type="checkbox"]:checked:after {
+    content: "\2714";
+    color: #0bdda9;
+    font-weight: bolder;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid rgb(214, 212, 212);
+}
