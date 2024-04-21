@@ -1,0 +1,29 @@
+.accordion-body {
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+.accordion-message {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 1%;
+  background-color: rgb(241 241 241);
+}
+
+.accordion-title {
+  height: 2rem;
+  display: grid;
+  grid-template-columns: 9fr 0.5fr;
+  grid-column-gap: 5px;
+  justify-items: start;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 1%;
+  width: 100%;
+  color: White;
+  background-color: rgb(63 103 107)
+}
+
+.accordion-title-message {
+  overflow: hidden;
+}
