@@ -1,0 +1,35 @@
+.stepper-body {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 20;
+}
+
+.steps-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps-button {
+  border: 1px solid black;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  color: rebeccapurple;
+}
+
+.steps-panel-body {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+}
+
+.steps-seperator {
+  height: 2rem;
+  width: 2rem;
+  border-left: 1px solid rgb(228, 26, 247);
+  margin: 2% 1rem;
+
+}
