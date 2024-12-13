@@ -1,7 +1,8 @@
 import React from "react";
 import "./App.css";
+import { PanelUsage } from "./Pages/Panel";
 // // import { MessageBarUsage } from "./Pages/MessageBar";
-import { AccordionUsage } from "./Pages/Accordion";
+// import { AccordionUsage } from "./Pages/Accordion";
 // import { TextFieldUsage } from "./Pages/TextBox";
 // import { CheckBoxUsage } from "./Pages/Checkbox";
 // import { RadioGroupUsage } from "./Pages/RadioGroup";
@@ -27,7 +28,8 @@ const App: React.FC = () => {
             {/* <RadioGroupUsage /> */}
             {/* <DropDownUsage /> */}
             {/* <MessageBarUsage /> */}
-            <AccordionUsage />
+            {/* <AccordionUsage /> */}
+            <PanelUsage />
           </div>
         </div>
       </div>
