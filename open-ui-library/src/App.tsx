@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { StepperUsage } from "./Pages/Stepper";
+import { PanelUsage } from "./Pages/Panel";
 // // import { MessageBarUsage } from "./Pages/MessageBar";
 // import { AccordionUsage } from "./Pages/Accordion";
 // import { TextFieldUsage } from "./Pages/TextBox";
@@ -30,6 +31,7 @@ const App: React.FC = () => {
             {/* <MessageBarUsage /> */}
             {/* <AccordionUsage /> */}
             <StepperUsage />
+            <PanelUsage />
           </div>
         </div>
       </div>
