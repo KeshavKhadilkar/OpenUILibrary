@@ -35,11 +35,12 @@ jobs:
       - name: Change directory to app
         run: cd open-ui-library
       - name: Install dependencies
-        run: cd open-ui-library
+        run: |
+          cd open-ui-library
           npm install
-      # Build Application
       - name: Build application
-        run: cd open-ui-library
+        run: |
+          cd open-ui-library
           npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
