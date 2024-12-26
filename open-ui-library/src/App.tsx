@@ -3,6 +3,7 @@ import "./App.css";
 import { SLiderUsage } from "./Pages/Slider";
 import { StepperUsage } from "./Pages/Stepper";
 import { PanelUsage } from "./Pages/Panel";
+import { ButtonUsage } from "./Pages/Button";
 // // import { MessageBarUsage } from "./Pages/MessageBar";
 // import { AccordionUsage } from "./Pages/Accordion";
 // import { TextFieldUsage } from "./Pages/TextBox";
@@ -31,9 +32,10 @@ const App: React.FC = () => {
             {/* <DropDownUsage /> */}
             {/* <MessageBarUsage /> */}
             {/* <AccordionUsage /> */}
-            <SLiderUsage />
-            <StepperUsage />
-            <PanelUsage />
+            {/* <SLiderUsage /> */}
+            {/* <StepperUsage /> */}
+            {/* <PanelUsage /> */}
+            <ButtonUsage />
           </div>
         </div>
       </div>

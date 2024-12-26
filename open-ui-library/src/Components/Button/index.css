@@ -1,0 +1,61 @@
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.button.primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.button.secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.button.danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button.warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.button.info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.button.success {
+    background-color: #28a745;
+    color: white;
+}
+
+.button.light {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+.button.dark {
+    background-color: #343a40;
+    color: white;
+}
+
+.button.link {
+    background-color: transparent;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.button.default {
+    background-color: #e0e0e0;
+    color: black;
+}
