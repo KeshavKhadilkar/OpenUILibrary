@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import { IButtonProps } from "../../Interface/IButton";
+import { IButtonProps } from "../../Interface";
 
 const Button: React.FC<IButtonProps> = ({ name, onClick, style, type }) => {
   style = style || {};

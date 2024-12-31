@@ -1,6 +1,5 @@
-import { Accordion } from "../../Components/Accordion";
 import Button from "../../Components/Button";
-import { IButtonType } from "../../Interface/IButton";
+import { IButtonType } from "../../Interface";
 
 export const ButtonUsage: React.FC = () => {
   return (
