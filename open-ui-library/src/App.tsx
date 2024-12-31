@@ -4,6 +4,8 @@ import { SLiderUsage } from "./Pages/Slider";
 import { StepperUsage } from "./Pages/Stepper";
 import { PanelUsage } from "./Pages/Panel";
 import { ButtonUsage } from "./Pages/Button";
+import { LinkUsage } from "./Pages/Link";
+import LabelUsage from "./Pages/Label";
 // // import { MessageBarUsage } from "./Pages/MessageBar";
 // import { AccordionUsage } from "./Pages/Accordion";
 // import { TextFieldUsage } from "./Pages/TextBox";
@@ -36,6 +38,8 @@ const App: React.FC = () => {
             {/* <StepperUsage /> */}
             {/* <PanelUsage /> */}
             <ButtonUsage />
+            <LinkUsage />
+            <LabelUsage />
           </div>
         </div>
       </div>

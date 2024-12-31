@@ -1,0 +1,19 @@
+.label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+    display: inline-block;
+}
+.label:hover {
+    color: #555;
+}
+
+.label:active {
+    color: #000;
+}
+
+.label.disabled {
+    color: #aaa;
+    cursor: not-allowed;
+}

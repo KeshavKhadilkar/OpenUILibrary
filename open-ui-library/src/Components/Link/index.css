@@ -1,0 +1,9 @@
+.link {
+    color: #1a0dab; /* A shade of blue suitable for light themes */
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #d93025; /* A shade of red for hover state */
+}

@@ -1,0 +1,65 @@
+.label-page {
+    padding: 20px;
+}
+
+.label-variations {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label-primary {
+    color: #fff;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.label-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.label-success {
+    color: #fff;
+    background-color: #28a745;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.label-danger {
+    color: #fff;
+    background-color: #dc3545;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.label-warning {
+    color: #212529;
+    background-color: #ffc107;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.label-info {
+    color: #fff;
+    background-color: #17a2b8;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.label-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.label-dark {
+    color: #fff;
+    background-color: #343a40;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
